@@ -1,7 +1,7 @@
 import psycopg2
 import os
 
-def _create_db_connection():
+def create_db_connection():
     """Create and return a database connection."""
     conn = psycopg2.connect(
     dbname=os.getenv("DB_NAME"),
