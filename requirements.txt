@@ -1,0 +1,8 @@
+python
+numpy
+pandas
+scipy
+kneed
+tabulate
+psycopg2
+plotly
